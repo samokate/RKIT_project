@@ -126,6 +126,18 @@
     display: block;
 }
 
+.demo-icon {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.btn-demo-txt {
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
 .preheadline, .headline, .intro, .text, .intro-text-list {
     z-index: 1;
     color: white;
@@ -189,14 +201,15 @@
 }
 
 
-.auto, .flexbox {
+.flexbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .example-box {
-    width: 450px;
-    height: 380px;
+    width: 31.25%;
+    height: 100%;
     background-color: #303030;
     margin-left: 30px;
     margin-right: 80px;
@@ -210,12 +223,8 @@
     margin-bottom: 16px;
 }
 
-.c-module {
-    margin-top: 125px;
-}
-
 .c-module::after {
-    width: 1320px;
+    width: 91%;
     content: '';
     display: block;
     background-color: #004DA9;
@@ -236,16 +245,12 @@
 }
 
 .module-step {
-    width: 380px;
+    width: 26.4%;
 }
 
 .module-step:nth-child(3n + 2) {
-    margin-right: 60px;
-    margin-left: 60px;
-}
-
-.module-title {
-    margin-left: 90px;
+    margin-right: 4.1%;
+    margin-left: 4.1%;
 }
 
 .h-steps {
@@ -265,7 +270,10 @@
 }
 
 .form-block {
+    display: flex;
     margin-top: 80px;
+    position: relative;
+    justify-content: center;
 }
 
 .form {
@@ -274,6 +282,9 @@
     border: 3px solid #004DA9;
     border-radius: 5px;
     padding: 50px 60px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
 }
 
 .form-title {
@@ -317,12 +328,26 @@
     border: none;
     margin-top: 40px;
     margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .personal-data {
     font-size: 12px;
     line-height: 14px;
     color: #828282;
+}
+
+.grey-block {
+    display: block;
+    width: 100%;
+    height: 320px;
+    background: #C4C4C4;
+    position: absolute;
+    top: 140px;
+}
+
+.man-pic {
+    position: absolute;
+    z-index: 2;
+    top: 19px;
+    margin-left: 130px;
 }
