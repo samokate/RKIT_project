@@ -84,7 +84,9 @@
     text-transform: uppercase;
     border-radius: 5px;
     margin-right: 1.25rem;
+    margin-left: 21.875rem;
 }
+
 
 .intro-container {
     padding-right: 24.375rem;
@@ -387,6 +389,11 @@
     display: flex;
     padding: 10px 0;
     justify-content: flex-start;
+}
+
+.footer-social-link {
+    display: block;
+    margin-right: 20px;
 }
 
 .socials-link-text {
