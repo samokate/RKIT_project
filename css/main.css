@@ -39,25 +39,23 @@
 }
 
 .header {
-    height: 80px;
     background-color: #004DA9;
-
 }
 
 .header-logo {
-    margin-right: 84px;
-    margin-left: 40px;
+    margin-right: 5.25rem;
+    margin-left: 2.5rem;
 }
 
 .logo-menu-container {
     display: flex;
-    height: 80px;
+    height: 5rem;
     align-items: center;
     justify-content: space-between;
 }
 
 .menu-list {
-    width: 650px;
+    width: 40.625rem;
     padding-left: 0;
     justify-content: space-between;
     list-style-type: none;
@@ -68,29 +66,29 @@
 .menu-link {
     text-decoration: none;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: uppercase;
     font-weight: 400;
 }
 
 .enter-link {
-    height: 30px;
-    width: 120px;
+    height: 1.875rem;
+    width: 7.5rem;
     background-color: transparent;
     border: 2px solid #FFFFFF;
     color: white;
     text-align: center;
     text-decoration: none;
-    line-height: 30px;
-    font-size: 14px;
+    line-height: 1.875re,;
+    font-size: 0.875rem;
     text-transform: uppercase;
     border-radius: 5px;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .intro-container {
-    padding-right: 390px;
-    padding-left: 390px;
+    padding-right: 24.375rem;
+    padding-left: 24.375rem;
     background-image: url('../img/intro.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -114,26 +112,26 @@
 }
 
 .button-demo {
-    width: 380px;
-    height: 60px;
+    width: 23.75rem;
+    height: 3.75rem;
     background-color: #004DA9;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 800;
     text-decoration: none;
     display: block;
 }
 
 .demo-icon {
-    margin-right: 10px;
+    margin-right: 0.625rem;
     vertical-align: middle;
 }
 
 .btn-demo-txt {
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 1.125rem;
+    line-height: 3.75rem;
     color: #FFFFFF;
     font-weight: 800;
 }
@@ -144,26 +142,26 @@
 }
 
 .preheadline {
-    font-size: 16px;
-    margin-top: 130px;
+    font-size: 1rem;
+    margin-top: 8.125rem;
 }
 
 .headline {
-    font-size: 36px;
-    margin-top: 18px;
-    margin-bottom: 45px;
+    font-size: 2.25rem;
+    margin-top: 1.125rem;
+    margin-bottom: 2.8125rem;
 }
 
 .intro, .text {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 100;
 }
 
 .intro-text-list {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 40px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 2.5rem;
     font-weight: 100;
 }
 
@@ -172,32 +170,33 @@
 }
 
 .button-demo {
-    margin-top: 75px;
-    padding: 0 20px;
+    margin-top: 4.6875rem;
+    padding: 0 1.25rem;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 1.125rem;
+    line-height: 3.75rem;
 }
 
 .intro-comment {
-    margin-top: 27px;
-    margin-bottom: 57px;
+    margin-top: 1.6875rem;
+    margin-bottom: 3.5635rem;
     font-weight: 100;
     color: black;
 }
 
 .container {
-    margin-top: 125px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-top: 7.8125rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .headline-main {
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: black;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
+    margin-left: 3.625rem;
 }
 
 
@@ -208,19 +207,34 @@
 }
 
 .example-box {
-    width: 31.25%;
-    height: 100%;
+    width: 28.125rem;
+    height: 23.75rem;
     background-color: #303030;
-    margin-left: 30px;
-    margin-right: 80px;
-    padding: 36px 30px 42px;
+    margin-right: 5rem;
+    padding: 2.25rem 1.875rem 2.625rem;
 }
 
 .title, .title-example {
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+
+.auto-block {
+    width: 100%;
+    padding-left: 5.625rem;
+     padding-right: 3.75rem;
+}
+
+.video {
+    height: 23.75rem;
+    width: 47.5rem;
+}
+
+.c-module {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .c-module::after {
@@ -228,20 +242,21 @@
     content: '';
     display: block;
     background-color: #004DA9;
-    height: 3px;
+    height: 0.1875rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .module-block {
     background-color: #EBEBEB;
     background-size: cover;
     width: 100%;
+    padding: 2.25rem 5.625rem 2.875rem 5.625rem;
 }
 
 .module-flex {
-    padding: 36px 90px 46px;
+    padding: 2.25rem 5.625rem 2.875rem;
 }
 
 .module-step {
@@ -254,100 +269,162 @@
 }
 
 .h-steps {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 
 .img-steps {
-    margin-top: 20px;
-    margin-bottom: 12px;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
 }
 
 .description-text {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     font-weight: 100;
+}
+
+.form-cont {
+    margin-top: 0;
 }
 
 .form-block {
     display: flex;
-    margin-top: 80px;
+    margin-top: 5rem;
     position: relative;
-    justify-content: center;
 }
 
 .form {
-    width: 520px;
-    height: 600px;
-    border: 3px solid #004DA9;
+    width: 32.5rem;
+    height: 37.5rem;
+    border: 0.1875rem solid #004DA9;
     border-radius: 5px;
-    padding: 50px 60px;
+    padding: 3.125rem 3.75rem;
+    margin-left: 8.75rem;
     position: absolute;
     z-index: 2;
     background-color: white;
 }
 
 .form-title {
-    font-size: 18px;
-    margin-bottom: 25px;
+    font-size: 1.125rem;
+    margin-bottom: 1.5625rem;
 }
 
 .form-txt {
-    line-height: 16px;
-    margin-bottom: 10px;
+    line-height: 1rem;
+    margin-bottom: 0.625rem;
 }
 
 .field-label {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
     color: #828282;
 }
 
 .field {
-    width: 400px;
-    height: 40px;
+    width: 25rem;
+    height: 2.5rem;
     background: #FFFFFF;
     border: 1px solid #C4C4C4;
     border-radius: 2px;
-    font-size: 15px;
-    line-height: 40px;
+    font-size: 0.9375rem;
+    line-height: 2.5rem;
     color: #000000;
-    padding-left: 8px;
+    padding-left: 0.5rem;
 }
 
 .send-btn {
-    width: 160px;
-    height: 60px;
+    width: 13.75rem;
+    height: 3.75rem;
     background: #004DA9;
     border-radius: 5px;
-    font-size: 16px;
-    line-height: 60px;
+    font-size: 1rem;
+    line-height: 3.75rem;
     text-transform: uppercase;
     color: white;
     text-align: center;
     border: none;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.875rem;
 }
 
 .personal-data {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
     color: #828282;
 }
 
 .grey-block {
     display: block;
     width: 100%;
-    height: 320px;
+    height: 20rem;
     background: #C4C4C4;
     position: absolute;
-    top: 140px;
+    top: 8.75rem;
 }
 
-.man-pic {
+.form-block::after {
+    content: ""; 
+    background-image: url('../img/person.png');
+    width: 390.5rem; 
+    height: 30.0625rem; 
+    background-repeat: no-repeat; 
+    margin-left: 49.37rem; 
+    margin-top: 1.1875rem; 
     position: absolute;
     z-index: 2;
-    top: 19px;
-    margin-left: 130px;
 }
+
+.footer {
+    background: #303030;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.footer-col-1 {
+    width: 15rem;
+    margin-right: 8.4375rem;
+}
+
+.footer-logo {
+    margin-bottom: 3.875rem;
+    opacity: 0.6;
+}
+
+.foo-socials-title {
+    letter-spacing: 1px;
+    color: #828282;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.footer-copy {
+    margin-top: 35px;
+}
+
+.footer-copy-title, .footer-copy-privacy {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.footer-col-2-title {
+    letter-spacing: 1px;
+    color: #828282;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.footer-col-2-list {
+    padding: 0;
+    list-style: none;
+}
+
+

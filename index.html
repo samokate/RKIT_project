@@ -67,24 +67,24 @@
         <!---------MAIN--------->
 
         <div class= "container">
-            <div class = "flexbox">
                 <h2 class = "headline-main">
                     Автоматическая постановка оттисков
                 </h2>
-                <div class = "flexbox">
-                    <div class = "example-box">
-                        <h3 class = "title title-example">Пример</h3>
-                        <p class = "text">
-                            Секретарю нужно направить контрагенту документ за подписью генерального директора. Согласование документа прошло в электронном виде. Чтобы отправить письмо, секретарь распечатывает документ, подписывает у директора, сканирует и прикладывает скан к электронному письму. Если документ многостраничный и подпись требуется на каждом листе, секретарь тратит время на рутинную работу, отправка письма задерживается.
-                        </p>
+                <div class = auto-block>
+                    <div class = "flexbox">
+                        <div class = "example-box">
+                            <h3 class = "title title-example">Пример</h3>
+                            <p class = "text">
+                                Секретарю нужно направить контрагенту документ за подписью генерального директора. Согласование документа прошло в электронном виде. Чтобы отправить письмо, секретарь распечатывает документ, подписывает у директора, сканирует и прикладывает скан к электронному письму. Если документ многостраничный и подпись требуется на каждом листе, секретарь тратит время на рутинную работу, отправка письма задерживается.
+                            </p>
+                        </div>
+                        <video class = "video" src="#0" controls>
+                        </video>
                     </div>
-                    <video class = "video" src="#0" controls height = "100%" width="52.7%">
-                    </video>
                 </div>
-            </div>
         </div>
-        <div class= "container">
-            <h2 class = "headline-main">
+        <div class= "c-module container">
+            <h2 class = "headline-main module-h2">
                 Как работает модуль?
             </h2>
                 
@@ -113,43 +113,128 @@
                 </div>
             </div>
         </div>
-        <div class = "form-block container">
-            <form class="form">
-                <div class="form-group">
-                <h3 class = "form-title">Закажите демонстрацию решения</h3>
-                <span class = "description-text form-txt">Наши специалисты свяжутся с вами и подробно объяснят как работает модуль.</span>
-                <br><label class="field-group">
-                    <span class="field-label">Имя</span>
-                    <br><input class="field" placeholder="Андрей С." required>
-                </label>
-                </div>
-                <div class="form-group">
-                <br><label class="field-group">
-                    <span class="field-label">Email</span>
-                    <br><input type="email" class="field" placeholder="design@sdew.ru" required>
-                </label>
-                </div>
-                <div class="form-group">
+        <div class = "form-cont container">
+            <div class = "form-block flexbox">
+                <form class="form">
+                    <div class="form-group">
+                    <h3 class = "form-title">Закажите демонстрацию решения</h3>
+                    <span class = "description-text form-txt">Наши специалисты свяжутся с вами и подробно объяснят как работает модуль.</span>
                     <br><label class="field-group">
-                        <span class="field-label">Телефон</span>
-                        <br><input type="tel" class="field" placeholder="+7(987)117-90-85" required>
+                        <span class="field-label">Имя</span>
+                        <br><input class="field" placeholder="Андрей С." required>
                     </label>
-                </div>
-                <button class = "send-btn" type="submit">Отправить</button>
-                <p class = "personal-data">
-                    Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.
-                </p>
-            </form>
-            <div class = "block-with-man">
-                <img class = "man-pic" src="img/person.png">
+                    </div>
+                    <div class="form-group">
+                    <br><label class="field-group">
+                        <span class="field-label">Email</span>
+                        <br><input type="email" class="field" placeholder="design@sdew.ru" required>
+                    </label>
+                    </div>
+                    <div class="form-group">
+                        <br><label class="field-group">
+                            <span class="field-label">Телефон</span>
+                            <br><input type="tel" class="field" placeholder="+7(987)117-90-85" required>
+                        </label>
+                    </div>
+                    <button class = "send-btn" type="submit">Отправить</button>
+                    <p class = "personal-data">
+                        Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.
+                    </p>
+                </form>
+                <div class = "grey-block"></div>
             </div>
-            <div class = "grey-block"></div>
         </div>
 
 
         <!---------FOOTER--------->
 
-        <footer></footer>
+        <footer class = "footer container">
+            <div class = "flexbox footer-flex">
+                <div class = footer-col-1>
+                    <a href = "#0" class = "logo-link-foo">
+                        <img src="img/logo_rkit.png" width="60" height="40" alt="Логотип RKIT Group" class = "footer-logo">
+                    </a>
+                    <div class = "footer-socials">
+                        <span class = "foo-socials-title">
+                            МЫ В СОЦСЕТЯХ
+                        </span>
+                        <div class = "footer-social-links">
+                            <a href = "#0" class = "footer-social-link icon icon-foo-fb"></a>
+                            <a href = "#0" class = "footer-social-link icon icon-foo-inst"></a>
+                            <a href = "#0" class = "footer-social-link icon icon-foo-vk"></a>
+                        </div>
+                    </div>
+                    <div class = "footer-copy">
+                        <span class = "footer-copy-title">
+                            © 2008-2019, ООО «РКИТ»
+                        </span>
+                        <a href = "#0" class = "footer-copy-privacy">
+                            Политика конфиденциальности
+                        </a>
+                    </div>
+                </div>
+
+                <div class = footer-col-2>
+                    <span class = "footer-col-2-title">РЕШЕНИЯ</span>
+                    <ul class = "footer-col-2-list">
+                        <li class = "footer-col-2-item">Управление договорами</li>
+                        <li class = "footer-col-2-item">Делопроизводство</li>
+                        <li class = "footer-col-2-item">Управление претензионно-исковой работой</li>
+                        <li class = "footer-col-2-item">Управление закупками</li>
+                        <li class = "footer-col-2-item">Управление проектами</li>
+                        <li class = "footer-col-2-item">Управление совещаниями</li>
+                    </ul>
+                </div>
+
+                <div class = footer-col-3>
+                    <ul class = "footer-col-2-list">
+                        <li class = "footer-col-2-item">Технический архив</li>
+                        <li class = "footer-col-2-item">Управление ИТ-заявками</li>
+                        <li class = "footer-col-2-item">Корпоративный портал на SharePoint</li>
+                        <li class = "footer-col-2-item">Конструктор согласований</li>
+                        <li class = "footer-col-2-item">Файловый контрол для Docsvision</li>
+                        <li class = "footer-col-2-item">Ссылочный контрол для Docsvision</li>
+                        <li class = "footer-col-2-item">Потоковая регистрация документов</li>
+                    </ul>
+                </div>
+
+                <div class = footer-col-4>
+                    <ul class = "footer-contacts">
+                        <li class = "footer-contacts-title">
+                            <span>ТЕХПОДДЕРЖКА</span>
+                        </li>
+                        <li class = "footer-contacts-tel">
+                            <a href= "tel: +73952559399" class = "footer-tel-link">+7 (3952) 559-399</a>
+                        </li>
+                        <li class = "footer-contacts-email">
+                            <a href="mailto: docflow@rkit.ru" class = "footer-email-link">docflow@rkit.ru</a>
+                        </li>
+                    </ul>
+                    
+                    <ul class = "footer-contacts">
+                        <li class = "footer-contacts-title">ИРКУТСК</li>
+                        <li class = "footer-contacts-tel">
+                            <a href="tel: +73952559399" class = "footer-tel-link">+7 (3952) 559-399</a>
+                        </li>
+                        <li class = "footer-contacts-address">Лермонтова 130, офис 434</li>
+                        <li class = "footer-contacts-email">
+                            <a href="meilto: sales@rkit.ru" class = "footer-email-link">sales@rkit.ru</a></li>
+                    </ul>
+                    
+                    <ul class = "footer-contacts">
+                        <li class = "footer-contacts-title">САНКТ-ПЕТЕРБУРГ</li>
+                        <li class = "footer-contacts-tel">
+                            <a href="tel: +78125002599" class = "footer-tel-link">+7 (812) 500-25-99</a>
+                        </li>
+                        <li class = "footer-contacts-address">+7 (812) 500-25-99 Кокколевская 1</li>
+                        <li class = "footer-contacts-email">
+                            <a href="mailto: sales@rkit.ru" class = "footer-email-link">sales@rkit.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
     </div>
 </body>
 </html>
