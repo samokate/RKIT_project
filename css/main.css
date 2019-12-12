@@ -392,8 +392,21 @@
 }
 
 .footer-social-link {
-    display: block;
+    display: inline-block;
     margin-right: 20px;
+    background-color: rgb(130, 130, 130, .6);
+    opacity: 0.6;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.social-svg {
+    position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .socials-link-text {
@@ -426,7 +439,7 @@
 }
 
 .footer-copy {
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .footer-copy-title, .footer-copy-privacy {
@@ -448,6 +461,7 @@
 }
 
 .footer-col-2-list {
+    width: 288px;
     padding: 0;
     list-style: none;
 }
@@ -458,6 +472,7 @@
     line-height: 30px;
     text-decoration: underline;
     padding-bottom: 10px;
+    word-break: break-all;
 }
 
 .footer-col-2-item-link {
@@ -465,6 +480,10 @@
     font-size: 1rem;
     font-weight: 100;
     color: #fff;
+}
+
+.footer-col-3 {
+    margin-top: 24px
 }
 
 .footer-col-4 {
